@@ -1,0 +1,13 @@
+# Local Streamlit secrets (passwords)
+.streamlit/
+
+# Python Virtual Environment (too big to upload)
+supply-env/
+
+# macOS system files
+.DS_Store
+
+# dbt logs and targets
+supply_chain_dbt/target/
+supply_chain_dbt/logs/
+supply_chain_dbt/dbt_packages/

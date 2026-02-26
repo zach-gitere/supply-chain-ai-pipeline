@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: stg_orders
+    columns:
+      - name: order_item_id  # This is the true unique key
+        tests:
+          - unique
+          - not_null
+
+      - name: order_id
+        tests:
+          - not_null # We removed 'unique' because orders repeat for multiple items
+
+      - name: status
+        tests:
+          - accepted_values:
+              values: ['COMPLETE', 'PENDING', 'CLOSED', 'PENDING_PAYMENT', 'CANCELED', 'PROCESSING', 'PAYMENT_REVIEW', 'SUSPECTED_FRAUD', 'ON_HOLD', 'SHIPPING', 'TRANSFER']

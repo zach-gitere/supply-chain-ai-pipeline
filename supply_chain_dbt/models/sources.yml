@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: snowflake_raw
+    database: SUPPLY_CHAIN_DB
+    schema: RAW
+    tables:
+      - name: RAW_SUPPLY_CHAIN_DATA

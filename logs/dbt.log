@@ -1,0 +1,93 @@
+[0m14:09:06.668919 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c6d76e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d463c50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d463a10>]}
+
+
+============================== 14:09:06.685542 | a8532488-8fb1-4b4e-a215-5a37009ae18c ==============================
+[0m14:09:06.685542 [info ] [MainThread]: Running with dbt=1.11.6
+[0m14:09:06.685852 [debug] [MainThread]: running dbt with arguments {'profiles_dir': '/Users/zack/.dbt', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt init supply_chain_dbt', 'write_json': 'True', 'printer_width': '80', 'no_print': 'None', 'warn_error': 'None', 'send_anonymous_usage_stats': 'True', 'use_experimental_parser': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_cache_events': 'False', 'target_path': 'None', 'use_colors': 'True', 'fail_fast': 'False', 'indirect_selection': 'eager', 'static_parser': 'True', 'log_path': 'logs', 'version_check': 'True', 'partial_parse': 'True', 'empty': 'None', 'cache_selected_only': 'False', 'quiet': 'False', 'introspect': 'True'}
+[0m14:09:06.695467 [debug] [MainThread]: Starter project path: /Users/zack/Desktop/supply_chain_project/supply-env/lib/python3.12/site-packages/dbt/include/starter_project
+[0m14:09:06.699313 [info ] [MainThread]: 
+Your new dbt project "supply_chain_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m14:09:06.699501 [info ] [MainThread]: Setting up your profile.
+[0m14:10:07.678553 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m14:10:07.679349 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m14:10:07.679499 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m14:12:05.341525 [info ] [MainThread]: Profile supply_chain_dbt written to /Users/zack/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m14:12:05.363139 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 178.73923, "process_in_blocks": "0", "process_kernel_time": 0.258237, "process_mem_max_rss": "109330432", "process_out_blocks": "0", "process_user_time": 0.820665}
+[0m14:12:05.365891 [debug] [MainThread]: Command `dbt init` succeeded at 14:12:05.365492 after 178.74 seconds
+[0m14:12:05.368434 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cd77050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d6a2180>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dd3e5a0>]}
+[0m14:12:05.370574 [debug] [MainThread]: Flushing usage events
+[0m14:12:06.530822 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:14:31.428601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c946b40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c9f51c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c9f5130>]}
+
+
+============================== 14:14:31.431611 | 03c9eba3-fa38-4ecd-ab56-bf7697b09d8e ==============================
+[0m14:14:31.431611 [info ] [MainThread]: Running with dbt=1.11.6
+[0m14:14:31.431916 [debug] [MainThread]: running dbt with arguments {'write_json': 'True', 'log_path': 'logs', 'printer_width': '80', 'partial_parse': 'True', 'log_format': 'default', 'introspect': 'True', 'indirect_selection': 'eager', 'send_anonymous_usage_stats': 'True', 'debug': 'False', 'cache_selected_only': 'False', 'invocation_command': 'dbt init supply_chain_dbt', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'empty': 'None', 'use_colors': 'True', 'profiles_dir': '/Users/zack/.dbt', 'use_experimental_parser': 'False', 'quiet': 'False', 'target_path': 'None', 'log_cache_events': 'False', 'warn_error': 'None', 'fail_fast': 'False'}
+[0m14:14:31.440977 [info ] [MainThread]: A project called supply_chain_dbt already exists here.
+[0m14:14:31.442675 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 0.066815875, "process_in_blocks": "0", "process_kernel_time": 0.155631, "process_mem_max_rss": "106708992", "process_out_blocks": "0", "process_user_time": 0.685375}
+[0m14:14:31.442903 [debug] [MainThread]: Command `dbt init` succeeded at 14:14:31.442852 after 0.07 seconds
+[0m14:14:31.443055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10c946b40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ca2a960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d73e5a0>]}
+[0m14:14:31.443198 [debug] [MainThread]: Flushing usage events
+[0m14:14:32.599467 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m12:00:25.537055 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d083d70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ddefe90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ddefb00>]}
+
+
+============================== 12:00:25.540612 | 3e1e08ac-3c38-4742-ad6b-8a18adde41dc ==============================
+[0m12:00:25.540612 [info ] [MainThread]: Running with dbt=1.11.6
+[0m12:00:25.540922 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'send_anonymous_usage_stats': 'True', 'profiles_dir': '/Users/zack/.dbt', 'debug': 'False', 'use_experimental_parser': 'False', 'partial_parse': 'True', 'printer_width': '80', 'static_parser': 'True', 'introspect': 'True', 'quiet': 'False', 'log_cache_events': 'False', 'log_format': 'default', 'warn_error': 'None', 'empty': 'False', 'use_colors': 'True', 'cache_selected_only': 'False', 'invocation_command': 'dbt run', 'write_json': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'fail_fast': 'False', 'log_path': 'logs', 'no_print': 'None', 'indirect_selection': 'eager'}
+[0m12:00:25.541215 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/zack/Desktop/supply_chain_project/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m12:00:25.549407 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": false, "command_wall_clock_time": 0.06261604, "process_in_blocks": "0", "process_kernel_time": 0.205999, "process_mem_max_rss": "106790912", "process_out_blocks": "0", "process_user_time": 0.842471}
+[0m12:00:25.549734 [debug] [MainThread]: Command `dbt run` failed at 12:00:25.549677 after 0.06 seconds
+[0m12:00:25.549936 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dc45bb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10dc45e20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10ddefd40>]}
+[0m12:00:25.550120 [debug] [MainThread]: Flushing usage events
+[0m12:00:26.589316 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:19:54.070285 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d0679b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d758fb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d758d10>]}
+
+
+============================== 21:19:54.073578 | e607e308-63a1-45eb-9a9a-95252b0a991a ==============================
+[0m21:19:54.073578 [info ] [MainThread]: Running with dbt=1.11.6
+[0m21:19:54.073892 [debug] [MainThread]: running dbt with arguments {'log_path': 'logs', 'static_parser': 'True', 'partial_parse': 'True', 'version_check': 'True', 'introspect': 'True', 'indirect_selection': 'eager', 'log_format': 'default', 'warn_error': 'None', 'empty': 'None', 'profiles_dir': '/Users/zack/.dbt', 'cache_selected_only': 'False', 'use_colors': 'True', 'debug': 'False', 'log_cache_events': 'False', 'quiet': 'False', 'use_experimental_parser': 'False', 'printer_width': '80', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'fail_fast': 'False', 'invocation_command': 'dbt docs generate', 'target_path': 'None', 'send_anonymous_usage_stats': 'True', 'no_print': 'None'}
+[0m21:19:54.074197 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/zack/Desktop/supply_chain_project/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:19:54.075931 [debug] [MainThread]: Resource report: {"command_name": "generate", "command_success": false, "command_wall_clock_time": 0.050748833, "process_in_blocks": "0", "process_kernel_time": 0.141872, "process_mem_max_rss": "108904448", "process_out_blocks": "0", "process_user_time": 0.68243}
+[0m21:19:54.076220 [debug] [MainThread]: Command `dbt docs generate` failed at 21:19:54.076176 after 0.05 seconds
+[0m21:19:54.076390 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d0c1a60>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10cda9520>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10d758dd0>]}
+[0m21:19:54.076548 [debug] [MainThread]: Flushing usage events
+[0m21:19:55.093966 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m21:19:55.974025 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10b2424e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfb0d40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfb0aa0>]}
+
+
+============================== 21:19:55.976839 | 5a2b62e4-165b-48f1-a054-ce36d4c21930 ==============================
+[0m21:19:55.976839 [info ] [MainThread]: Running with dbt=1.11.6
+[0m21:19:55.977159 [debug] [MainThread]: running dbt with arguments {'introspect': 'True', 'no_print': 'None', 'use_experimental_parser': 'False', 'send_anonymous_usage_stats': 'True', 'invocation_command': 'dbt docs serve', 'profiles_dir': '/Users/zack/.dbt', 'empty': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'write_json': 'True', 'static_parser': 'True', 'quiet': 'False', 'use_colors': 'True', 'cache_selected_only': 'False', 'log_cache_events': 'False', 'printer_width': '80', 'partial_parse': 'True', 'indirect_selection': 'eager', 'debug': 'False', 'log_format': 'default', 'target_path': 'None', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False'}
+[0m21:19:55.977466 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path /Users/zack/Desktop/supply_chain_project/dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m21:19:55.978741 [debug] [MainThread]: Resource report: {"command_name": "serve", "command_success": false, "command_wall_clock_time": 0.041025333, "process_in_blocks": "0", "process_kernel_time": 0.097343, "process_mem_max_rss": "109215744", "process_out_blocks": "0", "process_user_time": 0.652633}
+[0m21:19:55.979013 [debug] [MainThread]: Command `dbt docs serve` failed at 21:19:55.978970 after 0.04 seconds
+[0m21:19:55.979180 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfb0b90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfb2de0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10bfb2c00>]}
+[0m21:19:55.979339 [debug] [MainThread]: Flushing usage events
+[0m21:19:56.988771 [debug] [MainThread]: An error was encountered while trying to flush usage events
