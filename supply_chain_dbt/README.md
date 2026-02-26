@@ -9,7 +9,6 @@ Design and implement a modular analytics workflow that transforms raw transactio
 * **Predictive Power**: Deployed a Machine Learning model to identify high-risk deliveries with **56.22% confidence**.
 
 ## 🏗 Architecture
-## 🏗 Architecture
 
 ![Data Lineage Graph](./lineage_graph.png)
 
