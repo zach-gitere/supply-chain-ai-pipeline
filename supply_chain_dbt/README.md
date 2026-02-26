@@ -8,6 +8,20 @@ Design and implement a modular analytics workflow that transforms raw transactio
 * **Medallion Architecture**: Implemented Bronze/Silver/Gold layers using dbt.
 * **Predictive Power**: Deployed a Machine Learning model to identify high-risk deliveries with **56.22% confidence**.
 
+## 📊 Visual Insights
+
+### Executive Performance Overview
+The dashboard tracks **180,519 items** and highlights the **51.69% average late rate** identified after correcting upstream data shifts.
+![Supply Chain Dashboard](./images/dashboard_kpis.png)
+
+### Global Risk Analysis
+Interactive mapping of delivery performance across **164 countries**, identifying high-risk logistics corridors.
+![Global Delivery Risk Map](./images/risk_map.png)
+
+### AI-Powered Delivery Prediction
+A Random Forest model providing real-time risk assessment (e.g., flagging high-risk scenarios with **55.06% confidence**).
+![AI Delivery Predictor](./images/ai_predictor.png)
+
 ## 🏗 Architecture
 
 ![Data Lineage Graph](./lineage_graph.png)
